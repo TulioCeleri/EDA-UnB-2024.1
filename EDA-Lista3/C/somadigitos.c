@@ -1,29 +1,27 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int somaDigitos(int n) {
-    // Caso base: se o número for menor que 10, retorna ele mesmo
-    if (n < 10) {
-        return n;
-    } else {
-        // Chamada recursiva para calcular a soma dos dígitos do número dividido por 10
-        // e adicionando o último dígito do número ao resultado
-        return n % 10 + somaDigitos(n / 10);
+int somaDigitos(char *numero) {
+    
+    if (*numero == '\0') { 
+        return 0;
+    } else {                                              
+        return (*numero - '0') + somaDigitos(numero + 1); 
     }
 }
 
 int main() {
-    int numero;
-    
-    // Lê o número da entrada
-    scanf("%d", &numero);
-    
-    // Chama a função para calcular a soma dos dígitos
-    int soma = somaDigitos(numero);
-    
-    // Imprime o resultado
-    printf("%d\n", soma);
-    
+    char *numero;
+    numero = (char *)malloc(100 * sizeof(char)); // Aloca memória para armazenar o número
+    if (numero == NULL) {
+        printf("Erro ao alocar memória.");
+        return 1;
+    }
+
+    scanf("%s", numero);
+
+    printf("%d\n", somaDigitos(numero));
+
+    free(numero); // Libera a memória alocada
     return 0;
 }
-
-
