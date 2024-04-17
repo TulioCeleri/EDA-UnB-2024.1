@@ -1,29 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void MoveX(char *s, int indice){
-    if (s[indice] == '\0') 
-    {
-        return;
-    }
-    else
-    {
-        if (s[indice] == 'x') 
-        {
-            MoveX(s, indice + 1);
-            printf("x");
-        }
-        else 
-        {
-            printf("%c", s[indice]);
-            MoveX(s, indice + 1);
-        }
-    }
+#define MAX 1000
+
+void moveX(char* string) {
+    if (*string == '\n') return;
+    if (*string != 'x') printf("%c", *string);
+    moveX(string + 1);
+    if (*string == 'x') printf("%c", *string);
 }
 
-int main(void){
-    char str[101];
-    scanf("%s", str);
-    MoveX(str, 0);
+int main() {
+    char string[MAX];
+    fgets(string, sizeof(string), stdin);
+
+    moveX(string);
+    printf("\n");
 
     return 0;
 }
