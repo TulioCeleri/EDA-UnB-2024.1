@@ -3,3 +3,33 @@
 * Matéria: Estrutura de Dados e Algoritmos.
 * Professor: Rose Yuri Shimizu.
 * 4° semestre de Engenharia de Software.
+
+# Enunciados
+## Lista 1 - Revisão de APC
+* A - Olá Mundo 
+* B - Zerinho ou Um
+* C - Pirâmides 2 
+* D - Thums
+* E - Encontro Politécnico 
+* F - Menor índice do Vetor (vetor)
+* G - Está contido ou não? (vetor)
+* H - Soma de vetores (vetor)
+* I - Pares e ímpares do Vetor (vetor)
+* J - Campo de Minhocas (matriz)
+* L - Cinema
+* M - Tamanho da String (string)
+* N - Inverso (string)
+* O - Repetidos
+* P - Atetris
+* Q - Maior string
+* R - O Fantástico Jaspion!
+* S - Filiação
+* T - String existe
+* U - Nome banda
+* V - Ponto 
+* X - Batalha
+
+## Lista 2 - Pequenos ponteiros
+
+
+## Lista 3 - Pequena recursão
