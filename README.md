@@ -29,7 +29,20 @@
 * V - Ponto 
 * X - Batalha
 
-## Lista 2 - Pequenos ponteiros
+## Lista 2 
+* A - Swap
+* B - Argc_agrv
+* C - Fibonacci
+* D - Pa
+* E - Régua Inglesa
+* Z - Ultrapassa Minimamente
 
-
-## Lista 3 - Pequena recursão
+## Lista 3 
+* A - Move os Xs
+* B - Troca X por Y
+* C - Soma dos dígitos
+* D - Pares de caracteres
+* E - Potenciação
+* F - Maior substring
+* G - Strings secretas
+* H - F91
