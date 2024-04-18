@@ -4,7 +4,6 @@
 * Professor: Rose Yuri Shimizu.
 * 4° semestre de Engenharia de Software.
 
-# Enunciados
 ## Lista 1 - Revisão de APC
 * A - Olá Mundo 
 * B - Zerinho ou Um
@@ -46,3 +45,12 @@
 * F - Maior substring
 * G - Strings secretas
 * H - F91
+
+## Lista 4
+* A - Buscar 
+* B - Dividir
+* C - Impressão
+* D - Inserção
+* E - Juntar
+* F - Remoção
+
