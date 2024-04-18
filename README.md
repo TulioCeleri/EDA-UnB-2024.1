@@ -2,7 +2,7 @@
 
 * Matéria: Estrutura de Dados e Algoritmos.
 * Professor: Rose Yuri Shimizu.
-* 4° semestre de Engenharia de Software.
+* Semestre: 2024.1.
 
 ## Lista 1 - Revisão de APC
 * A - Olá Mundo 
