@@ -56,31 +56,31 @@
 
 ## Lista 5
 * 1 - [Desenfileira - circular](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/fila-desenfileira-circular.pdf)
-* 2 - [Desenfileira - lista encadeada]()
-* 3 - Desenfileira - lista estática
-* 4 - Enfileira - circular 
-* 5 - Enfileira - lista encadeada
-* 6 - Enfileira - lista estática
-* 7 - Filas - lista encadeada
-* 8 - Filas - lista estática
-* 9 - Desenfileira - circular
-* 10 - Pilhas - desempilha 1 
-* 11 - Pilhas - desempilha 2
-* 12 - Pilhas - empilha 1
-* 13 - Pilhas - empilha 2
-* 14 - Representação de pilhas em listas encadeadas 
-* 15 - Representação de pilhas em vetores 
-* 16 - Matrizes esparsas
-* 17 - Cartas
-* 18 - Gomercindo detetive
-* 19 - Vivo ou Morto
-* 20 - Elevator Trouble
-* 21 - Movimentos do Cavalo
-* 22 - Desfazer no Editor
-* 23 - Desfazer no Editor
-* 24 - Torre de Observação
-* 25 - Botas perdidas
-* 26 - Palíndromos
-* 27 - Expressões
-* 28 - Street Parade
+* 2 - [Desenfileira - lista encadeada](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/fila-desenfileira-lista.pdf)
+* 3 - [Desenfileira - lista estática](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/fila-desenfileira-vetor.pdf)
+* 4 - [Enfileira - circular](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/fila-enfileira-circular.pdf) 
+* 5 - [Enfileira - lista encadeada](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/fila-enfileira-lista.pdf)
+* 6 - [Enfileira - lista estática](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/fila-enfileira-vetor.pdf)
+* 7 - [Filas - lista encadeada](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/filas-listas.pdf)
+* 8 - [Filas - lista estática](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/filas-vetores.pdf)
+* 9 - [Desenfileira - circular](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/fila-desenfileira-circular.pdf)
+* 10 - [Pilhas - desempilha 1](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/pilha-desempilha-lista.pdf) 
+* 11 - [Pilhas - desempilha 2](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/pilha-desempilha-vetor.pdf)
+* 12 - [Pilhas - empilha 1](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/pilha-empilha-lista.pdf)
+* 13 - [Pilhas - empilha 2](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/pilha-empilha-vetor.pdf)
+* 14 - [Representação de pilhas em listas encadeadas](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/pilhas-listas.pdf) 
+* 15 - [Representação de pilhas em vetores](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/pilhas-vetores.pdf) 
+* 16 - [Matrizes esparsas](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/spmatrix-vector.pdf)
+* 17 - [Cartas](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/cartas2.pdf)
+* 18 - [Gomercindo detetive](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/detetive.pdf)
+* 19 - [Vivo ou Morto](http://br.spoj.com/problems/VIVO.pdf)
+* 20 - [Elevator Trouble](http://www.spoj.com/problems/ELEVTRBL.pdf)
+* 21 - [Movimentos do Cavalo](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/movimentos-cavalo.pdf)
+* 22 - [Desfazer no Editor](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/ctrl-z.pdf)
+* 23 - [Desfazer no Editor](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/douglaswiki.pdf)
+* 24 - [Torre de Observação](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/terreno.pdf)
+* 25 - [Botas perdidas](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/botas.pdf)
+* 26 - [Palíndromos](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/palindromo.pdf)
+* 27 - [Expressões](http://br.spoj.com/problems/EXPRES11.pdf)
+* 28 - [Street Parade](http://www.spoj.com/problems/STPAR.pdf)
 
