@@ -5,54 +5,54 @@
 * Semestre: 2024.1.
 
 ## Lista 1 - Revisão de APC
-* A - Olá Mundo 
-* B - Zerinho ou Um
-* C - Pirâmides 2 
-* D - Thums
-* E - Encontro Politécnico 
-* F - Menor índice do Vetor (vetor)
-* G - Está contido ou não? (vetor)
-* H - Soma de vetores (vetor)
-* I - Pares e ímpares do Vetor (vetor)
-* J - Campo de Minhocas (matriz)
-* L - Cinema
-* M - Tamanho da String (string)
-* N - Inverso (string)
-* O - Repetidos
-* P - Atetris
-* Q - Maior string
-* R - O Fantástico Jaspion!
-* S - Filiação
-* T - String existe
-* U - Nome banda
-* V - Ponto 
-* X - Batalha
+* A - [Olá Mundo](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/olamundo.pdf)
+* B - [Zerinho ou Um](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/zerinho_um.pdf)
+* C - [Pirâmides 2](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/piramides2.pdf)
+* D - [Thums](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/printthums.pdf)
+* E - [Encontro Politécnico](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/ep-e2d84744333933d4297a8f251844ea6d.pdf)
+* F - [Menor índice do Vetor (vetor)](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/vetor2.pdf)
+* G - [Está contido ou não? (vetor)](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/vetor5.pdf)
+* H - [Soma de vetores (vetor)](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/vetor6.pdf)
+* I - [Pares e ímpares do Vetor (vetor)](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/vetor3.pdf)
+* J - [Campo de Minhocas (matriz)](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/minhoca.pdf)
+* L - [Cinema](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/cinema.pdf)
+* M - [Tamanho da String (string)](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/string1.pdf)
+* N - [Inverso (string)](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/string2.pdf)
+* O - [Repetidos](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/vetor_qtd_repetidos.pdf)
+* P - [Atetris](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/matriz-atetris.pdf)
+* Q - [Maior string](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/string3.pdf)
+* R - [O Fantástico Jaspion!](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/jaspion.pdf)
+* S - [Filiação](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/filiacao.pdf)
+* T - [String existe](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/string_existe.pdf)
+* U - [Nome banda](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/struct-nome-banda.pdf)
+* V - [Ponto](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/struct-ponto.pdf)
+* X - [Batalha](https://moj.naquadah.com.br/contests/rysh1alistaeda120241/batalha-civilizacoes_funcao.pdf)
 
 ## Lista 2 
-* A - Swap
-* B - Argc_agrv
-* C - Fibonacci
-* D - Pa
-* E - Régua Inglesa
-* Z - Ultrapassa Minimamente
+* A - [Swap](https://moj.naquadah.com.br/contests/rysh2alistaeda120241/swap.pdf)
+* B - [Argc_agrv](https://moj.naquadah.com.br/contests/rysh2alistaeda120241/argc_argv.pdf)
+* C - [Fibonacci](https://moj.naquadah.com.br/contests/rysh2alistaeda120241/fibonacci-memoizacao.pdf)
+* D - [Pa](https://moj.naquadah.com.br/contests/rysh2alistaeda120241/pa-recursivo.pdf)
+* E - [Régua Inglesa](https://moj.naquadah.com.br/contests/rysh2alistaeda120241/regua-inglesa.pdf)
+* Z - [Ultrapassa Minimamente](https://moj.naquadah.com.br/contests/rysh2alistaeda120241/ultrapassaminimamente.pdf)
 
 ## Lista 3 
-* A - Move os Xs
-* B - Troca X por Y
-* C - Soma dos dígitos
-* D - Pares de caracteres
-* E - Potenciação
-* F - Maior substring
-* G - Strings secretas
-* H - F91
+* A - [Move os Xs](https://moj.naquadah.com.br/contests/rysh3alistaeda120241/moveX.pdf)
+* B - [Troca X por Y](https://moj.naquadah.com.br/contests/rysh3alistaeda120241/replaceXY.pdf)
+* C - [Soma dos dígitos](https://moj.naquadah.com.br/contests/rysh3alistaeda120241/soma-digitos.pdf)
+* D - [Pares de caracteres](https://moj.naquadah.com.br/contests/rysh3alistaeda120241/conta-pares-string.pdf)
+* E - [Potenciação](https://moj.naquadah.com.br/contests/rysh3alistaeda120241/potencia-rec.pdf)
+* F - [Maior substring](https://moj.naquadah.com.br/contests/rysh3alistaeda120241/largest-substring.pdf)
+* G - [Strings secretas](https://moj.naquadah.com.br/contests/rysh3alistaeda120241/str-secreta.pdf)
+* H - [F91](https://moj.naquadah.com.br/contests/rysh3alistaeda120241/f91.pdf)
 
 ## Lista 4
-* A - Buscar 
-* B - Dividir
-* C - Impressão
-* D - Inserção
-* E - Juntar
-* F - Remoção
+* A - [Buscar](https://moj.naquadah.com.br/contests/rysh4alistaeda120241/le-busca.pdf) 
+* B - [Dividir](https://moj.naquadah.com.br/contests/rysh4alistaeda120241/le-divide.pdf)
+* C - [Impressão](https://moj.naquadah.com.br/contests/rysh4alistaeda120241/le-impressao.pdf)
+* D - [Inserção](https://moj.naquadah.com.br/contests/rysh4alistaeda120241/le-insercao.pdf)
+* E - [Juntar](https://moj.naquadah.com.br/contests/rysh4alistaeda120241/le-junta.pdf)
+* F - [Remoção](https://moj.naquadah.com.br/contests/rysh4alistaeda120241/le-remocao.pdf)
 
 ## Lista 5
 * 1 - [Desenfileira - circular](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/fila-desenfileira-circular.pdf)
