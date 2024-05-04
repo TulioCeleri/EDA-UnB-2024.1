@@ -83,4 +83,10 @@
 * 26 - [Palíndromos](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/palindromo.pdf)
 * 27 - [Expressões](http://br.spoj.com/problems/EXPRES11.pdf)
 * 28 - [Street Parade](http://www.spoj.com/problems/STPAR.pdf)
+* 29 - [Árvores - percurso inorder](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/arvore-binaria-in.pdf)
+* 30 - [Árvores - percurso postorder](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/arvore-binaria-pos.pdf)
+* 31 - [Árvores - percurso preorder](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/arvore-binaria-pre.pdf)
+* 32 - [Árvore binária: inserção e percurso](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/preinpos.pdf) 
+* 33 - [Tiro ao alvo](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/tiro-ao-alvo.pdf) 
+* 34 - [DEV_CP - Ambitious XOXO](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/DEV_CP.pdf)
 
