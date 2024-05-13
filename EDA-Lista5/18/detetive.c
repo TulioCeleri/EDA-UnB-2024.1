@@ -25,9 +25,7 @@ void inicia_fila(cabeca *c){
 
 no * cria_no(pista p){
     no *novo = malloc(sizeof(no));
-    novo->p.identificador = p.identificador;
-    novo->p.valor = p.valor;
-    novo->p.identificador_prox = p.identificador_prox;
+    novo->p = p;
     novo->prox = NULL;
     return novo;
 }
