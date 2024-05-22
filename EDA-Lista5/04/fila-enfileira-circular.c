@@ -7,52 +7,61 @@ typedef struct fila {
 } fila;
 
 int enfileira (fila *f, int x){
-    if ((f->u+1) % f->N == f->p)
+    if (f->p == 0 && f->u == f->N - 1)
     {
-        int *novo_dados = realloc(f->dados, f->N * 2 * sizeof(int));
-        if (novo_dados == NULL)
+        f->N *= 2;
+        f->dados = realloc(f->dados, f->N * sizeof(int));
+        if (f->dados == NULL)
         {
             return 0;
         }
-        
-        f->dados = novo_dados;
-        f->N *= 2;
     }
+    
+    else if (f->p > 0 && f->u == f->p - 1)
+    {
+        if (f->u <= f->N - f->p)
+        {
+            int tamanho = f->N;
+            f->N *= 2;
+            f->dados = realloc(f->dados, f->N * sizeof(int));
+            if (f->dados == NULL)
+            {
+                return 0;
+            }
 
+            for (int i = 0; i < f->u; i++, tamanho++)
+            {
+                f->dados[tamanho] = f->dados[i];
+            }
+            f->u = tamanho;
+        }
+        
+        else if (f->u > f->N - f->p)
+        {
+            int tamanho = f->N;
+            f->N *= 2;
+            f->dados = realloc(f->dados, f->N * sizeof(int));
+            if (f->dados == NULL)
+            {
+                return 0;
+            }
+
+            int aux = f->N - 1;
+            for (int i = tamanho - 1; i > f->u; i--, aux--)
+            {
+                f->dados[aux] = f->dados[i];
+            }
+            f->p = aux + 1;
+        }
+    }
     
     f->dados[f->u] = x;
-    f->u = (f->u + 1) % f->N;
+    f->u++;
+    if (f->u == f->N)
+    {
+        f->u %= f->N;
+    }
+    
     return 1;
 }
 
-fila *cria_fila(){
-    fila *novo = malloc(sizeof(fila));
-    novo->N = 5;
-    novo->p = 0;
-    novo->u = 0;
-    novo->dados = malloc(novo->N * sizeof(int));
-    return novo;
-}
-
-int main(){
-    fila *Fila = cria_fila();
-    enfileira(Fila, 3);
-    enfileira(Fila, 4);
-    enfileira(Fila, 5);
-    enfileira(Fila, 6);
-    enfileira(Fila, 7);
-    enfileira(Fila, 8);
-    fila *teste = Fila;
-    printf("%d\n", teste->u);
-    // int i = teste->p; // Comece do índice de início
-    // while (i != teste->u) // Enquanto não alcançar o índice de fim
-    // {
-    //     printf("%d\n", teste->dados[i]);
-    //     i = (i + 1) % teste->N; // Avance para o próximo elemento
-    // }
-    
-
-    
-
-    return 0;
-}
