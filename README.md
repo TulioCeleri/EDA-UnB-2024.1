@@ -90,3 +90,15 @@
 * 33 - [Tiro ao alvo](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/tiro-ao-alvo.pdf) 
 * 34 - [DEV_CP - Ambitious XOXO](https://moj.naquadah.com.br/contests/rysh5alistaeda120241/DEV_CP.pdf)
 
+## Lista 6
+* A - [Busca Binaria](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/busca-binaria-1.pdf) 
+* B - [Busca geral num conjunto não ordenado](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/busca-binaria-2.pdf) 
+* C - [Menores Placas - fila de prioridades](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/menores-placas.pdf) 
+* D - [Ordenação por Bolha](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/ordenasimples-bolha.pdf) 
+* E - [Ordenação por Seleção](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/ordenasimples-selecao.pdf) 
+* F - [Ordenação por Inserção](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/ordenainsercao.pdf) 
+* G - [Implemente o MergeSort](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/ordenaelaborado.pdf) 
+* H - [Ordenação - sem laços](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/ordenasemlaco.pdf) 
+* I - [Analisando Dados de Degustação](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/sequencia-desgustacao.pdf) 
+* J - [Pesquisa Instruções](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/pesquisa-instrucoes.pdf) 
+* L - [Carteiro](https://moj.naquadah.com.br/contests/rysh6alistaeda120241/carteiro.pdf) 
