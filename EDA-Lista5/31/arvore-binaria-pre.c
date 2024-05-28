@@ -1,82 +1,59 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
-// Definição de um nó da árvore
 typedef struct no {
     int dado;
-    struct no* esq;
-    struct no* dir;
+    struct no *esq, *dir;
 } no;
 
-// Pilha para armazenar os nós da árvore
 typedef struct pilha {
-    struct no* node;
-    struct pilha* next;
+    no *dados[100]; 
+    int topo;
 } pilha;
 
-// Função para criar um novo nó da árvore
-no * criar_no(int dado) {
-    no* novo = malloc(sizeof(no));
-    novo->dado = dado;
-    novo->esq = NULL;
-    novo->dir = NULL;
-    return novo;
+pilha *criar_pilha() {
+    pilha *p = malloc(sizeof(pilha));
+    p->topo = -1;
+    return p;
 }
 
-// Função para empilhar um nó na pilha
-void empilha(pilha** top, no* node) {
-    pilha* novo = malloc(sizeof(pilha));
-    novo->node = node;
-    novo->next = *top;
-    *top = novo;
-}
-
-// Função para desempilhar um nó da pilha
-no* desempilha(pilha** top) {
-    if (*top == NULL) {
-        return NULL;
-    }
-    no* desempilhapedNode = (*top)->node;
-    pilha* temp = *top;
-    *top = (*top)->next;
-    free(temp);
-    return desempilhapedNode;
-}
-
-// Função para imprimir a árvore binária em pré-ordem de forma iterativa
-void pre_ordem(no* raiz) {
-    if (raiz == NULL) {
+void empilhar(pilha *p, no *no) {
+    if (p->topo == 99) {
+        printf("Erro: pilha cheia\n");
         return;
     }
-
-    pilha* stack = NULL;
-    empilha(&stack, raiz);
-
-    while (stack != NULL) {
-        no* currNode = desempilha(&stack);
-        printf("%d ", currNode->dado);
-
-        if (currNode->dir) {
-            empilha(&stack, currNode->dir);
-        }
-        if (currNode->esq) {
-            empilha(&stack, currNode->esq);
-        }
-    }
+    p->dados[++(p->topo)] = no;
 }
 
-int main() {
-    // Exemplo de árvore binária
-    no* raiz = criar_no(1);
-    raiz->esq = criar_no(2);
-    raiz->dir = criar_no(3);
-    raiz->esq->esq = criar_no(4);
-    raiz->esq->dir = criar_no(5);
+no *desempilhar(pilha *p) {
+    if (p->topo == -1) {
+        printf("Erro: pilha vazia\n");
+        return NULL;
+    }
+    return p->dados[(p->topo)--];
+}
 
-    printf("Árvore binária em pré-ordem: ");
-    pre_ordem(raiz);
-    printf("\n");
+bool pilha_vazia(pilha *p) {
+    return p->topo == -1;
+}
 
+void pre_ordem(no *raiz) {
+    if (raiz == NULL)
+        return;
 
-    return 0;
+    pilha *p = criar_pilha();
+    empilhar(p, raiz);
+
+    while (!pilha_vazia(p)) {
+        no *atual = desempilhar(p);
+        printf("%d ", atual->dado);
+
+        if (atual->dir != NULL)
+            empilhar(p, atual->dir);
+        if (atual->esq != NULL)
+            empilhar(p, atual->esq);
+    }
+
+    free(p);
 }
